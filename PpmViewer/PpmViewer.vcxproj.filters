@@ -24,24 +24,6 @@
     <ClCompile Include="FileHelpers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RemoveBlue.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="RemoveGreenEffect.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NegateBlueEffect.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NegateRedEffect.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NegateGreenEffect.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Grayscale.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FltkIncludes.h">
@@ -497,31 +479,31 @@
     <ClInclude Include="PpmDocument.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ImageEffect.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="EffectFactory.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="RemoveRedEffect.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RemoveGreenEffect.h">
+    <ClInclude Include="RemoveGreenEffect.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NegateBlueEffect.h">
+    <ClInclude Include="RemoveBlueEffect.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RemoveBlueEffect.h">
+    <ClInclude Include="NegateRedEffect.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NegateRedEffect.h">
+    <ClInclude Include="NegateGreenEffect.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NegateGreenEffect.h">
+    <ClInclude Include="NegateBlueEffect.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Grayscale.h">
+    <ClInclude Include="Grayscale.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageEffect.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

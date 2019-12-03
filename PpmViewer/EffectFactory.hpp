@@ -1,11 +1,11 @@
 #pragma once
 #include "RemoveRedEffect.hpp"
-#include "RemoveGreenEffect.h"
-#include "RemoveBlueEffect.h"
-#include "NegateRedEffect.h"
-#include "NegateGreenEffect.h"
-#include "NegateBlueEffect.h"
-#include "Grayscale.h"
+#include "RemoveGreenEffect.hpp"
+#include "RemoveBlueEffect.hpp"
+#include "NegateRedEffect.hpp"
+#include "NegateGreenEffect.hpp"
+#include "NegateBlueEffect.hpp"
+#include "Grayscale.hpp"
 
 enum class ImageEffectType
 {
