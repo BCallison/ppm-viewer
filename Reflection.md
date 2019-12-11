@@ -1,0 +1,9 @@
+This PPM viewer project was, to say the least, difficult in some senses but also pretty straightforward in others. To start off with your code that initialized/outlined this entire project was pretty 
+straightforward and it gave me the bases to be able to modify my pre-existing code which we have done in the previous milestones and adapted it to be able to edit a class of pixels instead of having to 
+import the whole file and do the manipulation in the main. I found it a lot easier to just use the class of pixel(s) as I'm sure that was the purpose. I did, however, run into a couple of problems; 
+I thought I installed fltk properly however when I went to build the solution for the first time after implementing a couple of image effects it became apparent that I was, in fact, missing a couple 
+of steps in my installation process so I had to find out how to properly install fltk to visual code 2019. However, a lot of the tutorials were for 2013 2009 so they weren't applicable so it took me a 
+minute to be able to properly install fltk the next issue I ran into was the one I emailed you about and thank you for your response I can't believe it was just a simple from changing the debug from x64 
+to x86 I don't know why I never tried that but that seemed to help the problem and then I ran into another problem with a char variable or vector and had to be had to ask around a little bit to find a 
+solution on why it was throwing the error. Overall I thought this introduction to GUIs was very helpful and very insightful and I got a lot out of it and especially using classes with it I feel that I 
+am better suited to apply my skills going forward.
