@@ -27,6 +27,12 @@
     <ClCompile Include="RemoveBlue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RemoveGreenEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NegateBlueEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FltkIncludes.h">
@@ -491,7 +497,13 @@
     <ClInclude Include="RemoveRedEffect.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RemoveBlue.hpp">
+    <ClInclude Include="RemoveGreenEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveBlue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NegateBlueEffect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

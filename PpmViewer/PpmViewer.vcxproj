@@ -130,7 +130,9 @@
   <ItemGroup>
     <ClCompile Include="FileHelpers.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="NegateBlueEffect.cpp" />
     <ClCompile Include="RemoveBlue.cpp" />
+    <ClCompile Include="RemoveGreenEffect.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EffectFactory.hpp" />
@@ -282,11 +284,13 @@
     <ClInclude Include="FL\platform.H" />
     <ClInclude Include="FL\win32.H" />
     <ClInclude Include="FL\x.H" />
-    <ClInclude Include="RemoveBlue.hpp" />
+    <ClInclude Include="NegateBlueEffect.h" />
+    <ClInclude Include="RemoveBlue.h" />
     <ClInclude Include="ImageEffect.hpp" />
     <ClInclude Include="Pixel.hpp" />
     <ClInclude Include="PpmDocument.hpp" />
     <ClInclude Include="PpmWindow.hpp" />
+    <ClInclude Include="RemoveGreenEffect.h" />
     <ClInclude Include="RemoveRedEffect.hpp" />
   </ItemGroup>
   <ItemGroup>

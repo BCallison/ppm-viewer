@@ -21,6 +21,7 @@ private:
 		{"Remove Red", 0, applyEffect, (void*)ImageEffectType::RemoveRed},
 		{"Remove Green", 0, applyEffect, (void*)ImageEffectType::RemoveGreen},
 		{"Remove Green", 0, applyEffect, (void*)ImageEffectType::RemoveBlue},
+		{"Remove Green", 0, applyEffect, (void*)ImageEffectType::NegateBlueEffect},
 		{0} //end of Effects dropdown
 	};
 	Fl_RGB_Image* _image = nullptr;
