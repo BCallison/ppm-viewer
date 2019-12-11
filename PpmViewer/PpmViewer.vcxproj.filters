@@ -33,6 +33,15 @@
     <ClCompile Include="NegateBlueEffect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NegateRedEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NegateGreenEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Grayscale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FltkIncludes.h">
@@ -500,10 +509,19 @@
     <ClInclude Include="RemoveGreenEffect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RemoveBlue.h">
+    <ClInclude Include="NegateBlueEffect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NegateBlueEffect.h">
+    <ClInclude Include="RemoveBlueEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NegateRedEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NegateGreenEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Grayscale.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

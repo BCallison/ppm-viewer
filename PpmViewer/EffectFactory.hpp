@@ -5,8 +5,7 @@
 #include "NegateRedEffect.h"
 #include "NegateGreenEffect.h"
 #include "NegateBlueEffect.h"
-#include
-#include
+#include "Grayscale.h"
 
 enum class ImageEffectType
 {
@@ -59,22 +58,6 @@ public:
 
 		case ImageEffectType::Grayscale:
 			return new GrayscaleEffect{};
-			break;
-
-		case ImageEffectType::Contrast:
-			return new ContrastEffect{};
-			break;
-
-		case ImageEffectType::Noise:
-			return new NoiseEffect{};
-			break;
-
-		case ImageEffectType::Blur:
-			return new BlurEffect{};
-			break;
-
-		case ImageEffectType::Pixelate:
-			return new PixelateEffect{};
 			break;
 
 		default: 
