@@ -132,6 +132,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Contrast.hpp" />
     <ClInclude Include="EffectFactory.hpp" />
     <ClInclude Include="FileBrowser.hpp" />
     <ClInclude Include="FileHelpers.hpp" />

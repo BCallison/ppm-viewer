@@ -6,6 +6,7 @@
 #include "NegateGreenEffect.hpp"
 #include "NegateBlueEffect.hpp"
 #include "Grayscale.hpp"
+#include "Contrast.hpp"
 
 enum class ImageEffectType
 {
@@ -17,12 +18,11 @@ enum class ImageEffectType
 	NegateBlue,
 	Grayscale,
 	Contrast,
-	Noise,
-	Blur,
-	Pixelate,
 
 
 	//TODO: add rest below
+	//Noise
+	//vertFlip
 };
 
 class EffectFactory
@@ -58,6 +58,10 @@ public:
 
 		case ImageEffectType::Grayscale:
 			return new GrayscaleEffect{};
+			break;
+
+		case ImageEffectType::Contrast:
+			return new ContrastEffect{};
 			break;
 
 		default: 

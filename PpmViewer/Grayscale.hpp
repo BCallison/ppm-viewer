@@ -15,7 +15,9 @@ public:
 				int average = (p.red + p.green + p.blue) / 3;
 
 				p.red = average;
+
 				p.green = average;
+
 				p.blue = average;
 
 				//not necessary as we're using references but it makes our intent more clear
